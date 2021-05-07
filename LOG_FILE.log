@@ -1,0 +1,127 @@
+UVM_INFO fifo_sequence.sv(39) @ 0: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ --------------- Reset ---------------
+UVM_INFO fifo_monitor.sv(43) @ 5: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=xx  read=x write=x reset=x  dout=xx full=x alf=x empty=x ale=x 
+UVM_INFO fifo_sequence.sv(39) @ 5: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ --------------- Reset ---------------
+UVM_INFO fifo_monitor.sv(43) @ 15: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=00  read=0 write=0 reset=1  dout=00 full=0 alf=0 empty=1 ale=1 
+UVM_INFO fifo_sequence.sv(66) @ 15: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ Starting write_until_full 
+UVM_INFO fifo_monitor.sv(43) @ 25: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=00  read=0 write=0 reset=1  dout=00 full=0 alf=0 empty=1 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 35: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=69  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 45: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=14  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 55: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=74  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 65: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=86  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 75: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=4f  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 85: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=61  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 95: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=45  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 105: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=5a  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 115: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=95  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 125: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=e6  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 135: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a5  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 145: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=66  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 155: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=82  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 165: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=78  read=0 write=1 reset=0  dout=00 full=0 alf=1 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 175: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=b8  read=0 write=1 reset=0  dout=00 full=0 alf=1 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 185: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=be  read=0 write=1 reset=0  dout=00 full=1 alf=1 empty=0 ale=0 
+UVM_INFO fifo_sequence.sv(76) @ 185: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ Starting read_until_empty 
+UVM_INFO fifo_monitor.sv(43) @ 195: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=e3  read=0 write=1 reset=0  dout=00 full=1 alf=1 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 205: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=fc  read=1 write=0 reset=0  dout=69 full=0 alf=1 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 215: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=60  read=1 write=0 reset=0  dout=14 full=0 alf=1 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 225: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=fe  read=1 write=0 reset=0  dout=74 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 235: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=35  read=1 write=0 reset=0  dout=86 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 245: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=21  read=1 write=0 reset=0  dout=4f full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 255: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=b8  read=1 write=0 reset=0  dout=61 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 265: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=78  read=1 write=0 reset=0  dout=45 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 275: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=ca  read=1 write=0 reset=0  dout=5a full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 285: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=4f  read=1 write=0 reset=0  dout=95 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 295: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=aa  read=1 write=0 reset=0  dout=e6 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 305: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=34  read=1 write=0 reset=0  dout=a5 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 315: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=7f  read=1 write=0 reset=0  dout=66 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 325: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=02  read=1 write=0 reset=0  dout=82 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 335: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=fd  read=1 write=0 reset=0  dout=78 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 345: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=dc  read=1 write=0 reset=0  dout=b8 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 355: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=79  read=1 write=0 reset=0  dout=be full=0 alf=0 empty=1 ale=1 
+UVM_INFO fifo_sequence.sv(71) @ 355: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ Starting write_until_alf 
+UVM_INFO fifo_monitor.sv(43) @ 365: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=19  read=1 write=0 reset=0  dout=be full=0 alf=0 empty=1 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 375: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=2b  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 385: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=f7  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 395: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=74  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 405: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a7  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 415: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=29  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 425: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=3e  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 435: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=7c  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 445: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=57  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 455: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=f6  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 465: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=b8  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 475: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=c8  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 485: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=c5  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 495: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=3a  read=0 write=1 reset=0  dout=be full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 505: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=68  read=0 write=1 reset=0  dout=be full=0 alf=1 empty=0 ale=0 
+UVM_INFO fifo_sequence.sv(81) @ 505: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ Starting write_until_ale 
+UVM_INFO fifo_monitor.sv(43) @ 515: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a3  read=0 write=1 reset=0  dout=be full=0 alf=1 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 525: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=18  read=1 write=0 reset=0  dout=2b full=0 alf=1 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 535: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=c7  read=1 write=0 reset=0  dout=f7 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 545: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=1f  read=1 write=0 reset=0  dout=74 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 555: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=7b  read=1 write=0 reset=0  dout=a7 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 565: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=48  read=1 write=0 reset=0  dout=29 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 575: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=bc  read=1 write=0 reset=0  dout=3e full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 585: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a5  read=1 write=0 reset=0  dout=7c full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 595: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=39  read=1 write=0 reset=0  dout=57 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 605: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=72  read=1 write=0 reset=0  dout=f6 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 615: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=68  read=1 write=0 reset=0  dout=b8 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 625: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=84  read=1 write=0 reset=0  dout=c8 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 635: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=10  read=1 write=0 reset=0  dout=c5 full=0 alf=0 empty=0 ale=0 
+UVM_INFO fifo_monitor.sv(43) @ 645: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=52  read=1 write=0 reset=0  dout=3a full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_sequence.sv(39) @ 645: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ --------------- Reset ---------------
+UVM_INFO fifo_monitor.sv(43) @ 655: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=8b  read=1 write=0 reset=0  dout=68 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_sequence.sv(39) @ 655: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ --------------- Reset ---------------
+UVM_INFO fifo_monitor.sv(43) @ 665: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=00  read=0 write=0 reset=1  dout=00 full=0 alf=0 empty=1 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 675: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=00  read=0 write=0 reset=1  dout=00 full=0 alf=0 empty=1 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 685: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a9  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_sequence.sv(104) @ 685: uvm_test_top.env_h.agent_h.sequencer_h@@seq [body] 
+ Staering fifo_read_writr_same_time
+UVM_INFO fifo_monitor.sv(43) @ 695: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=7c  read=0 write=1 reset=0  dout=00 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 705: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=2f  read=1 write=1 reset=0  dout=a9 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 715: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=42  read=1 write=1 reset=0  dout=7c full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 725: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=0c  read=1 write=1 reset=0  dout=2f full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 735: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=9b  read=1 write=1 reset=0  dout=42 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 745: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a9  read=1 write=1 reset=0  dout=0c full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 755: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=77  read=1 write=1 reset=0  dout=9b full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 765: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=ed  read=1 write=1 reset=0  dout=a9 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 775: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=ff  read=1 write=1 reset=0  dout=77 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 785: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=fc  read=1 write=1 reset=0  dout=ed full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 795: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a5  read=1 write=1 reset=0  dout=ff full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 805: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=e8  read=1 write=1 reset=0  dout=fc full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 815: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=2f  read=1 write=1 reset=0  dout=a5 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 825: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=d8  read=1 write=1 reset=0  dout=e8 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 835: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=63  read=1 write=1 reset=0  dout=2f full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 845: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=27  read=1 write=1 reset=0  dout=d8 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 855: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=10  read=1 write=1 reset=0  dout=63 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 865: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=16  read=1 write=1 reset=0  dout=27 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 875: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=80  read=1 write=1 reset=0  dout=10 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 885: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=a0  read=1 write=1 reset=0  dout=16 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 895: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=80 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 905: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=a0 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 915: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 925: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 935: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 945: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 955: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 965: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 975: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 985: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 995: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1005: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1015: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1025: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1035: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1045: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1055: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1065: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_monitor.sv(43) @ 1075: uvm_test_top.env_h.agent_h.monitor_h [fifo_monitor] din=94  read=1 write=1 reset=0  dout=94 full=0 alf=0 empty=0 ale=1 
+UVM_INFO fifo_coverage.sv(52) @ 1085: uvm_test_top.env_h.coverage_h [fifo_coverage] Coverage is 76.078430
